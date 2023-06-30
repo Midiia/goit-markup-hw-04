@@ -429,7 +429,7 @@ body {
 
 .customer-icon-link:hover .customer-icon,
 .customer-icon-link:focus .customer-icon {
-    color: #404bbf;;
+    color: #404bbf;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
