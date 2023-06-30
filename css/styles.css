@@ -388,7 +388,7 @@ body {
 
 .bcg-social-icons:hover
 .bcg-social-icons:focus {
-    background-color: var(--pressed-state-color);
+    background-color: #404bbf;
 }
 
 /**
@@ -704,13 +704,10 @@ img {
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .icon-modal {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 
-.icon-modal:hover,
-.icon-modal:focus {
-    fill: #ffffff;
-}
