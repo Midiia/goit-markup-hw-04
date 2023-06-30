@@ -386,7 +386,7 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.bcg-social-icons:hover
+.bcg-social-icons:hover,
 .bcg-social-icons:focus {
     background-color: #404bbf;
 }
@@ -698,16 +698,21 @@ img {
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: var(--dark-color);
 }
 
 .modal-button:hover,
 .modal-button:focus {
     background-color: #404bbf;
     border: none;
-    fill: #ffffff;
+    color: #ffffff;
 }
 
-.icon-modal {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);   
+.icon-modal { 
+    fill: currentColor;  
+}
+
+.icon-modal:hover {
+   color: currentColor; 
 }
 
