@@ -711,8 +711,3 @@ img {
 .icon-modal { 
     fill: currentColor;  
 }
-
-.icon-modal:hover {
-   color: currentColor; 
-}
-
